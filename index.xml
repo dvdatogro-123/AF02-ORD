@@ -1,13 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="css/styles.css"?>
 <!--
-  Intercambio académico en la FIME (UANL)
+  AF02 · Intercambio académico en la FIME (UANL)
   Alumno: David Alonso Torres Guerrero · Matrícula 2144813 · ITS
   Programación Web · Grupo 002 · Ing. Lilia Lizeth Santos López
+
+  Página hecha en XML:
+  - css/styles.css le da diseño a las etiquetas de este archivo.
+  - js/app.js agrega logos, fotos, alertas, buscador y el botón al PIA.
+
   Etiqueta raíz: <intercambio>
   Cada <universidad> tiene 7 etiquetas:
   nombre, pais, ciudad, programa, duracion, requisitos, sitioWeb
 -->
-<intercambio facultad="FIME" universidad="UANL" ciclo="2026-2027">
+<intercambio facultad="FIME" universidad="UANL" ciclo="2026-2027"
+             alumno="David Alonso Torres Guerrero" matricula="2144813" carrera="ITS"
+             materia="Programación Web" maestra="Ing. Lilia Lizeth Santos López" grupo="002">
 
   <universidad id="unam" tipo="nacional" codigo="CDMX"
                logo="img/logos/unam.png" foto="img/fotos/unam.jpg" bandera="img/logos/flag-mx.svg">
@@ -31,4 +39,6 @@
     <sitioWeb>https://www.insa-lyon.fr/</sitioWeb>
   </universidad>
 
+  <!-- Carga la parte interactiva (no es una etiqueta de datos) -->
+  <script xmlns="http://www.w3.org/1999/xhtml" src="js/app.js" defer="defer"></script>
 </intercambio>
