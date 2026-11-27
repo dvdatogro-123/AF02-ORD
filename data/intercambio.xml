@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Intercambio académico en la FIME (UANL)
+  Etiqueta raíz: <intercambio>
+  Cada <universidad> tiene 7 etiquetas:
+  nombre, pais, ciudad, programa, duracion, requisitos, sitioWeb
+-->
+<intercambio facultad="FIME" universidad="UANL" ciclo="2026-2027">
+
+  <universidad id="unam" tipo="nacional" codigo="CDMX"
+               logo="img/logos/unam.png" foto="img/fotos/unam.jpg" bandera="img/logos/flag-mx.svg">
+    <nombre>Universidad Nacional Autónoma de México</nombre>
+    <pais>México</pais>
+    <ciudad>Ciudad de México</ciudad>
+    <programa>Movilidad estudiantil nacional en la Facultad de Ingeniería</programa>
+    <duracion>Un semestre académico</duracion>
+    <requisitos>Ser alumno regular de la FIME, tener al menos el 50 % de créditos aprobados, promedio mínimo de 80 y carta de postulación de la facultad</requisitos>
+    <sitioWeb>https://www.ingenieria.unam.mx/</sitioWeb>
+  </universidad>
+
+  <universidad id="insa" tipo="internacional" codigo="LYS"
+               logo="img/logos/insa.png" foto="img/fotos/lyon.jpg" bandera="img/logos/flag-fr.svg">
+    <nombre>Institut National des Sciences Appliquées de Lyon (INSA Lyon)</nombre>
+    <pais>Francia</pais>
+    <ciudad>Lyon (Villeurbanne)</ciudad>
+    <programa>Intercambio académico internacional en ingeniería</programa>
+    <duracion>Uno o dos semestres</duracion>
+    <requisitos>Ser alumno regular, tener al menos el 50 % de créditos aprobados, promedio mínimo de 80, nivel de francés B1 o inglés B2 y pasaporte vigente</requisitos>
+    <sitioWeb>https://www.insa-lyon.fr/</sitioWeb>
+  </universidad>
+
+</intercambio>
