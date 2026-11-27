@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
   Intercambio académico en la FIME (UANL)
+  Alumno: David Alonso Torres Guerrero · Matrícula 2144813 · ITS
+  Programación Web · Grupo 002 · Ing. Lilia Lizeth Santos López
   Etiqueta raíz: <intercambio>
   Cada <universidad> tiene 7 etiquetas:
   nombre, pais, ciudad, programa, duracion, requisitos, sitioWeb

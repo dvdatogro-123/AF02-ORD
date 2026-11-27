@@ -106,10 +106,22 @@ code { font-family: var(--f-code); font-size: .9em; }
 .buscador button { align-self: stretch; margin: 4px; padding: 0 1.1rem; border: 0; border-radius: 999px; background: var(--navy); color: #fff; font: 700 .9rem var(--f-body); cursor: pointer; }
 .buscador button:hover { background: var(--navy-2); }
 
+/* Datos del alumno: estilo pase de pasajero */
+.hero-side { display: flex; flex-direction: column; gap: .75rem; }
+.alumno { background: #fff; color: var(--ink); border-radius: 16px; padding: 1.1rem 1.25rem; box-shadow: 0 20px 40px -24px rgba(0, 0, 0, .6); border-top: 4px solid var(--gold); }
+.alumno-head { display: flex; align-items: center; gap: .5rem; padding-bottom: .7rem; margin-bottom: .8rem; border-bottom: 2px dashed var(--line); }
+.alumno-head i { color: var(--sky); font-size: 1.2rem; }
+.alumno-head h2 { font-family: var(--f-head); font-size: .8rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; }
+.alumno dl { display: grid; grid-template-columns: 1fr 1fr; gap: .65rem 1rem; }
+.alumno .alumno-full { grid-column: 1 / -1; }
+.alumno dt { font-size: .7rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--ink-3); }
+.alumno dd { font-weight: 700; line-height: 1.3; }
+.alumno .alumno-nombre { font-family: var(--f-head); font-size: 1.1rem; }
+.alumno .alumno-num { font-family: var(--f-code); letter-spacing: .05em; }
 .hero-stats { display: grid; grid-template-columns: 1fr 1fr; gap: .75rem; }
-.hero-stats div { background: rgba(255, 255, 255, .07); border: 1px solid rgba(255, 255, 255, .14); border-radius: 14px; padding: 1rem 1.1rem; }
+.hero-stats div { background: rgba(255, 255, 255, .07); border: 1px solid rgba(255, 255, 255, .14); border-radius: 14px; padding: .7rem .9rem; }
 .hero-stats dt { font-size: .72rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: #b8c5d9; }
-.hero-stats dd { font-family: var(--f-head); font-weight: 700; font-size: 1.9rem; color: #fff; line-height: 1.2; font-variant-numeric: tabular-nums; }
+.hero-stats dd { font-family: var(--f-head); font-weight: 700; font-size: 1.5rem; color: #fff; line-height: 1.2; font-variant-numeric: tabular-nums; }
 .hero-stats dd code { font-size: 1rem; color: var(--gold); }
 
 /* ---------- Secciones ---------- */
